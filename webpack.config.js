@@ -1,6 +1,6 @@
 const path = require('path');
 const { VueLoaderPlugin } = require('vue-loader');
-const { compilerOptions } = require('vue-nodegui/dist/vueLoader');
+const { compilerOptions } = require('@nodegui/vue-nodegui/dist/vueLoader');
 
 module.exports = (env = {}) => ({
   mode: env.prod ? 'production' : 'development',
@@ -14,7 +14,7 @@ module.exports = (env = {}) => ({
   resolve: {
     extensions: ['.ts', '.js', '.vue', '.json'],
     alias: {
-      vue: path.resolve(__dirname, './node_modules/vue-nodegui/dist'),
+      vue: path.resolve(__dirname, './node_modules/@nodegui/vue-nodegui/dist'),
     },
   },
   module: {

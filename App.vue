@@ -10,7 +10,7 @@
 
 <script>
 import Hero from './Hero.vue';
-import { ref } from 'vue-nodegui';
+import { ref } from '@nodegui/vue-nodegui';
 
 export default {
   components: { Hero },
