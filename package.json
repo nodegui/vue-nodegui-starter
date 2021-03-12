@@ -7,17 +7,20 @@
     "dev": "webpack -p && qode --inspect ./dist/main.js"
   },
   "dependencies": {
-    "@nodegui/vue-nodegui": "0.0.3",
+    "@nodegui/vue-nodegui": "0.0.5",
     "@vue/compiler-sfc": "^3.0.1",
     "css-loader": "^3.6.0",
     "file-loader": "^5.0.2",
     "mini-css-extract-plugin": "^0.9.0",
     "node-loader": "^0.6.0",
     "url-loader": "^3.0.0",
-    "vue-loader": "16.0.0-beta.7",
-    "webpack": "^4.43.0",
-    "webpack-cli": "^3.3.12"
+    "vue-loader": "16.0.0-beta.7"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "webpack": "^4.46.0",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.2"
+  }
 }
