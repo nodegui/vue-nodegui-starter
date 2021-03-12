@@ -1,9 +1,14 @@
 <template>
   <vn-view>
     <hero />
-    <vn-view id="counter" :styleSheet="counterStyle">
-      <vn-text>Counter: {{count}}</vn-text>
-      <vn-button @clicked="inc">Inc</vn-button>
+    <vn-view
+      id="counter"
+      :styleSheet="counterStyle"
+    >
+      <vn-text>Counter: {{ count }}</vn-text>
+      <vn-button @clicked="inc">
+        Inc
+      </vn-button>
     </vn-view>
   </vn-view>
 </template>
