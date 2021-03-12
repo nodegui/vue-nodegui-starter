@@ -5,6 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "lint": "eslint --ext \".js,.vue\" --ignore-path .gitignore .",
+    "lint:fix": "yarn eslint --fix",
     "dev": "NODE_ENV=development webpack -p && qode --inspect ./dist/main.js"
   },
   "dependencies": {
