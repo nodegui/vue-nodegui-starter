@@ -21,6 +21,9 @@ sketch
 ## ignore the dist folder
 dist
 
+## deploy folder
+deploy
+
 ## ignore the demo build
 demo-dist
 
